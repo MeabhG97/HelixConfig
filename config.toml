@@ -1,0 +1,20 @@
+theme = "catppuccin_mocha"
+
+[editor]
+line-number = "relative"
+cursorline = true
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+e = "move_line_up"
+d = "move_line_down"
+s = "move_char_left"
+f = "move_char_right"
